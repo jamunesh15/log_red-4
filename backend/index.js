@@ -16,7 +16,7 @@ app.use(express.json())
 
 app.use(cors(
     {
-        origin: "http://localhost:5173", // Your frontend URL
+        origin: "https://log-red-4-1-ui1.onrender.com", // Your frontend URL
   credentials: true,
     } 
 ));
